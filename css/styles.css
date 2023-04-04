@@ -4,13 +4,7 @@ body {
   background: #ddd;
 }
 
-img {
-  display: block;
-  max-width: 100%;
-}
-
 main {
-  max-width: 320px;
   min-height: 600px;
   margin: auto;
   background-color: #B2D6F7;
@@ -23,6 +17,22 @@ main {
   font-family: ff-meta-headline-web-pro, sans-serif;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
+
+p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+h2 {
+  margin: 0;
+  margin-left: 20px;
+}
+
 .nom {
   max-width: 320px;
   display: flex;
@@ -33,7 +43,6 @@ main {
   border-radius: 0 0 10px 10px;
   position: sticky;
   top: 0;
-  font-size: 16px;
   font-weight: 400;
   flex-wrap: nowrap;
   align-items: center;
@@ -41,12 +50,6 @@ main {
 
 .nom h1 {
   margin: 10px;
-}
-
-p {
-  margin: 0;
-  font-size: 16px;
-  font-weight: 400;
 }
 
 .center {
@@ -67,6 +70,11 @@ p {
   max-width: 75%;
 }
 
+.left .hour {
+  display: flex;
+  flex-direction: row;
+}
+
 .right {
   background-color: #2E4C96;
   color: #D6D63E;
@@ -77,19 +85,14 @@ p {
   max-width: 75%;
 }
 
-.hour {
-  font-size: 10px;
-  font-weight: 700;
-}
-
 .right .hour {
   display: flex;
   flex-direction: row-reverse;
 }
 
-.left .hour {
-  display: flex;
-  flex-direction: row;
+.hour {
+  font-size: 10px;
+  font-weight: 700;
 }
 
 .discution {
@@ -100,11 +103,6 @@ p {
   font-weight: 400;  
   background: #2E4C96;
   margin: 5px 0;
-}
-
-h2 {
-  margin: 0;
-  margin-left: 20px;
 }
 
 .discution a {
