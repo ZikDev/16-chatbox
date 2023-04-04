@@ -10,7 +10,8 @@ img {
 }
 
 main {
-  max-width: 300px;
+  max-width: 320px;
+  min-height: 600px;
   margin: auto;
   background-color: #B2D6F7;
   border: 1px solid black;
@@ -22,25 +23,38 @@ main {
   font-family: ff-meta-headline-web-pro, sans-serif;
 }
 
-h1 {
-  margin: 0;
+.nom {
+  max-width: 320px;
+  display: flex;
+  margin: auto;
   width: 100%;
   color: #D6D63E;
   background: #2E4C96;
   border-radius: 0 0 10px 10px;
   position: sticky;
   top: 0;
-  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.nom h1 {
+  margin: 10px;
 }
 
 p {
   margin: 0;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .center {
  color: #2E4C96;
  align-self: center;
  margin: 5px;
+ font-size: 10px;
+ font-weight: 300;
 }
 
 .left {
@@ -61,4 +75,49 @@ p {
   padding: 10px;
   align-self: flex-end;
   max-width: 75%;
+}
+
+.hour {
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.right .hour {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.left .hour {
+  display: flex;
+  flex-direction: row;
+}
+
+.discution {
+  max-width: 320px;
+  width: 100%;
+  top: 0;
+  font-size: 18px;
+  font-weight: 400;  
+  background: #2E4C96;
+  margin: 5px 0;
+}
+
+h2 {
+  margin: 0;
+  margin-left: 20px;
+}
+
+.discution a {
+  margin: 10px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  color: #D6D63E;
+  text-decoration: none;
+}
+
+.discution img {
+  max-width: 40px;
+  max-width: 40px;
+  border-radius: 50%;
 }
