@@ -8,3 +8,57 @@ img {
   display: block;
   max-width: 100%;
 }
+
+main {
+  max-width: 300px;
+  margin: auto;
+  background-color: #B2D6F7;
+  border: 1px solid black;
+  box-shadow: 0 0 5px #3333;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: ff-meta-headline-web-pro, sans-serif;
+}
+
+h1 {
+  margin: 0;
+  width: 100%;
+  color: #D6D63E;
+  background: #2E4C96;
+  border-radius: 0 0 10px 10px;
+  position: sticky;
+  top: 0;
+  text-align: center;
+}
+
+p {
+  margin: 0;
+}
+
+.center {
+ color: #2E4C96;
+ align-self: center;
+ margin: 5px;
+}
+
+.left {
+  background-color: #D6D63E;
+  color: #2E4C96;
+  border-radius: 20px 20px 20px 5px;
+  margin: 5px 10px;
+  padding: 10px;
+  align-self: flex-start;
+  max-width: 75%;
+}
+
+.right {
+  background-color: #2E4C96;
+  color: #D6D63E;
+  border-radius: 20px 20px 5px 20px;
+  margin: 5px 10px;
+  padding: 10px;
+  align-self: flex-end;
+  max-width: 75%;
+}
